@@ -1,0 +1,50 @@
+ALGORITHM nb_length_in_sentense 
+VAR
+   ch:STRING:= "hello my freinds";
+ count:INTEGER :=0;
+BEGIN 
+    FOR i in ch do
+    if(ch[i]!= "") then
+    count=count+1 ;
+    END if
+END FOR
+ write(count);
+END
+
+ALGORITHM nbre_word_in_sentense
+VAR
+ ch:string:="hello my freinds"
+ count: INTEGER:=1
+
+BEGIN
+    for i in ch do
+    IF i=="" THEN
+    count=count+1;
+    END IF
+    END FOR
+    write (count);
+
+END
+ALGORITHM num_vowels_sentense
+VAR
+    ch:string:="hello my friends"
+    count:=0 integer
+    vowel=('a' ou 'e' ou 'i' ou 'o' ou 'y'):string
+BEGIN
+    for i in ch do
+    if ch[i]=="vowel" THEN
+    count=count+1;
+END IF
+END FOR
+ write (count);
+END
+
+
+
+
+
+
+
+
+
+
